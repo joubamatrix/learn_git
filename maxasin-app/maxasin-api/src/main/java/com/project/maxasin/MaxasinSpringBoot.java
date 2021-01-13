@@ -35,6 +35,7 @@ public class MaxasinSpringBoot extends SpringBootServletInitializer implements C
 		metier.achatProduit(new Achats(1000,10,new Date(),"total"));
 		metier.achatProduit(new Achats(1000,10,new Date(),"nikos"));
 		metier.achatProduit(new Achats(1000,10,new Date(),"select"));
+		metier.achatProduit(new Achats(1000,10,new Date(),"gitproduit")));
 		metier.listAchats(PageRequest.of(0, 3));
 		
 	}
